@@ -1,0 +1,59 @@
+/*
+-Variable notes:
+a1c = a1 color
+*/
+
+:root {
+    --a1c: black;
+    --a2c: red;
+    --a3c: green;
+    --a4c: yellow;
+    --a5c: blue;
+    --a6c: cyan;
+    --a7c: white;
+    --aExtraC: orange;
+    --aExtraC2: magenta; }
+
+.a1c { color: black }
+.a2c { color: red }
+.a3c { color: green }
+.a4c { color: yellow }
+.a5c { color: blue }
+.a6c { color: cyan }
+.a7c { color: white; background: var(--none); }
+.aExtraC { color: orange; }
+
+* {margin:0; padding:0; font-size: 27px;}
+body {background: gray}
+
+/*pre */
+pre::before {content:"Code: \a"; color:var(--a6c);}
+pre {border: solid 3px var(--a6c);
+    padding: 0 9px;}
+
+/**/
+.button {padding:9px; background: white;
+    display:flex; justify-content: space-between;}
+.button a {color:red;}
+
+/**/
+.button2mini-menu ul { display:flex; flex-wrap:wrap; }
+.button2mini-menu li { list-style-type: none; padding:3px; }
+.button2mini-menu a {
+    border: solid 3px yellow; background:cyan; color:red;
+    text-decoration: none; }
+
+/* .block (for div) */
+.block::before {content:"Output: \a"; color:var(--a6c);}
+.block {border: solid 3px var(--a6c);
+    padding: 9px;}
+
+/*(for space between tags)*/
+.line {color:var(--a7c); background-color:var(--a2c); border: solid 1px var(--a4c);}
+.l-topicSeparator {color:var(--a7c); background-color: var(--a5c); border: solid 1px var(--a4c);}
+.l-topicSeparator2 {color:var(--a7c); background-color: var(--aExtraC2); border: solid 1px var(--a4c);}
+.l-important {color:var(--a7c); background-color:var(--a3c); border: solid 1px var(--a4c);}
+
+/*for img tag*/
+.baseSize { border: solid black 3px;
+    width:486px; height:243px; overflow:auto; }
