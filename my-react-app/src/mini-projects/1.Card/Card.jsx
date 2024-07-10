@@ -5,7 +5,7 @@ import profilePic from './profile.gif';
 function Card() {
     return(
         <>
-        <div className="line">1.Card</div>
+        <div className="line">First try with React</div>
         <div className="center">
             <div className="card">
                 <img src={profilePic} alt="profile picture" />

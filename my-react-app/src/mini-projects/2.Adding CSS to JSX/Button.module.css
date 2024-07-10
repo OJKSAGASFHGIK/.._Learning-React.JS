@@ -1,0 +1,7 @@
+.button1 {
+    font-size: 9vw;
+    color: white; background:red;
+    cursor: pointer;
+
+    border-radius: 10px;
+}

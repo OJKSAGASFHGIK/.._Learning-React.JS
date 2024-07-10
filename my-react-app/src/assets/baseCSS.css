@@ -3,4 +3,10 @@
 
     color: white;
     background: black;
+
+    font-size: 4vh;
+}
+
+.flex-space-around {
+    display: flex; justify-content: space-around;
 }
