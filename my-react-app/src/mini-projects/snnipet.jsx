@@ -1,10 +1,9 @@
-import './css.css';
-import './../../assets/baseCSS.css';
+import './css.module.css';
 
 function someName(){
     return(
         <>
-        <div className="line">folderName</div>
+        <div className="line">someName</div>
         </>
     );
 }

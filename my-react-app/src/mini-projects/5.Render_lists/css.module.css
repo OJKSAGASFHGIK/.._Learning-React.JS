@@ -1,0 +1,15 @@
+.bList {
+    display: flex; justify-content: space-around;
+}
+
+.bList div {
+    border: solid 1px black;
+
+    min-width: 30vw;
+}
+
+.bList h1 { background: cyan; margin: 0;}
+
+.bList li { font-size: 3vh; }
+
+/*.bList li {}*/
