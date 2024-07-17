@@ -1,7 +1,7 @@
 import s from './css.module.css';
 import { getFruits, getVegetables } from './data.js';
 
-function Render_lists(){
+function Render_Lists(){
     const fruits = getFruits();
     const vegetables = getVegetables();
     /* If you want in a future organize arrays in order: */
@@ -54,4 +54,4 @@ function Render_lists(){
     );
 }
 
-export default Render_lists
+export default Render_Lists

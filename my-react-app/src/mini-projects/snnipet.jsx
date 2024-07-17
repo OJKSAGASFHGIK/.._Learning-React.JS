@@ -1,4 +1,4 @@
-import './css.module.css';
+import s from './css.module.css';
 
 function someName(){
     return(

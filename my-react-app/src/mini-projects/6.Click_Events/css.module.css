@@ -1,0 +1,20 @@
+.center {
+    all: unset;
+
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+
+    font-size: 4vh;
+    padding: 9px;
+    margin: 3px;
+
+    border-radius: 1vw;
+
+    transition: all ease-in-out 333ms;
+}
+
+.button:hover { background: pink; }
