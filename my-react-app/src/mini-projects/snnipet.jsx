@@ -1,11 +1,11 @@
-import s from './css.module.css';
+// import s from './css.module.css';
 
-function someName(){
-    return(
+function Snnipet({title="OJKSAGASFHGIK"}){    
+    return (
         <>
-        <div className="line">someName</div>
+            <div className="line">{title}</div>
         </>
-    );
+    )
 }
 
-export default someName
+export default Snnipet

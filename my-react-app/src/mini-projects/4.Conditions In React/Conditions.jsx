@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import s from './css.module.css';
 
-function Conditions({name = "Unknown"}){
+function Conditions({name = "Guest"}){
     const [message, setMessage] = useState(null);
 
     const welcomeMessage =

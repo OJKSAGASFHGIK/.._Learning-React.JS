@@ -1,11 +1,11 @@
 import s from './css.module.css';
 
 function Click_Events(){
-    let counter = 0;
+    let some = 0;
     const clickFunction = (a1) => {
-        if(counter < 3){
-            counter++;
-            a1.target.textContent= `You clicked me ${counter} times Greque.` ;
+        if(some < 3){
+            some++;
+            a1.target.textContent= `You clicked me ${some} times Greque.` ;
         } else { a1.target.textContent= `Stop clicking me!` ; }
     };
     
