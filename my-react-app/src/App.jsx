@@ -1,6 +1,6 @@
 import './assets/baseCSS.css';
 
-import Snnipet from './mini-projects/snnipet.jsx';
+// import Snnipet from './mini-projects/snnipet.jsx';
 
 import Card from './mini-projects/1.Card/Card.jsx';
 import AddingCSSToJSX from './mini-projects/2.Adding CSS to JSX/Adding CSS to JSX.jsx';
@@ -9,6 +9,7 @@ import Conditions from './mini-projects/4.Conditions In React/Conditions.jsx';
 import Render_Lists from './mini-projects/5.Render_Lists/Render_Lists.jsx';
 import Click_Events from './mini-projects/6.Click_Events/Click_Events.jsx';
 import Counter from './mini-projects/7.Counter/Counter.jsx';
+import OnChangeEvent from './mini-projects/8.OnChangeEvent/OnChangeEvent.jsx';
 
 function App() {
   return(
@@ -28,6 +29,7 @@ function App() {
       <Render_Lists />
       <Click_Events />
       <Counter />
+      <OnChangeEvent />
       
     </>
   );
