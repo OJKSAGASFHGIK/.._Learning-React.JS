@@ -10,6 +10,9 @@ import Render_Lists from './mini-projects/5.Render_Lists/Render_Lists.jsx';
 import Click_Events from './mini-projects/6.Click_Events/Click_Events.jsx';
 import Counter from './mini-projects/7.Counter/Counter.jsx';
 import OnChangeEvent from './mini-projects/8.OnChangeEvent/OnChangeEvent.jsx';
+import ColorPicker from './mini-projects/9.ColorPicker/ColorPicker.jsx';
+import UpdaterFunctions from './mini-projects/10.UpdaterFunctions/UpdaterFunctions.jsx';
+import UpdateObjsInState from './mini-projects/11.UpdateObjsInState/UpdateObjsInState.jsx';
 
 function App() {
   return(
@@ -30,7 +33,9 @@ function App() {
       <Click_Events />
       <Counter />
       <OnChangeEvent />
-      
+      <ColorPicker />
+      <UpdaterFunctions />
+      <UpdateObjsInState />
     </>
   );
 }
