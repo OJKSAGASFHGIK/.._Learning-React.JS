@@ -13,7 +13,8 @@ import OnChangeEvent from './mini-projects/8.OnChangeEvent/OnChangeEvent.jsx';
 import ColorPicker from './mini-projects/9.ColorPicker/ColorPicker.jsx';
 import UpdaterFunctions from './mini-projects/10.UpdaterFunctions/UpdaterFunctions.jsx';
 import UpdateObjsInState from './mini-projects/11.UpdateObjsInState/UpdateObjsInState.jsx';
-import UpdateArraysInState from './mini-projects/12.UpdateArraysInState/UpdateArraysInState.jsx';
+//import UpdateArraysInState from './mini-projects/12.UpdateArraysInState/UpdateArraysInState.jsx';
+import MainUpdateArraysInState from './mini-projects/12.UpdateArraysInState/MainUpdateArraysInState.jsx';
 
 function App() {
   return(
@@ -37,7 +38,7 @@ function App() {
       <ColorPicker />
       <UpdaterFunctions />
       <UpdateObjsInState />
-      <UpdateArraysInState /> {/* Go deep about it */}
+      <MainUpdateArraysInState /> {/* Go deep about it */}
     </>
   );
 }

@@ -2,7 +2,7 @@
 
 import React, {useState} from "react";
 
-function UpdateArraysInState({title="Update arrays in state"}){    
+function UpdateArraysInState1(){    
     const [a1Fruit, a2SetFruit] = useState(["Lemon", "Orange", "Banana", ]);
     
     // Ever study more about the function that you're trying make
@@ -18,7 +18,6 @@ function UpdateArraysInState({title="Update arrays in state"}){
 
     return (
         <>
-            <div className="line">{title}</div>
             <div>
                 <h2>List of fruits (click to remove):</h2>
                 <ul>
@@ -37,4 +36,4 @@ function UpdateArraysInState({title="Update arrays in state"}){
     )
 }
 
-export default UpdateArraysInState
+export default UpdateArraysInState1
