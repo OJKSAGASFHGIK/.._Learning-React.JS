@@ -1,3 +1,5 @@
+body {margin: 0.5vh;}
+
 .line {
     padding: 0.33%;
 
@@ -31,3 +33,4 @@
 .flex-wrap {
     display: flex; flex-wrap: wrap;
 }
+
