@@ -1,7 +1,7 @@
 // import s from './css.module.css';
 import React, {useState} from "react";
 
-function ColorPicker({title="Color Picker // useState"}){    
+function ColorPicker({title="Color Picker // useState", id}){    
     const [a1Color, a1SetColor] = useState("#FFFFFF");
 
     function funcColorChange(a1){
@@ -10,7 +10,7 @@ function ColorPicker({title="Color Picker // useState"}){
     
     return (
         <>
-            <div className="line">{title}</div>
+            <h1 className="line" id={id}>{title}</h1>
             <div className="" style={{backgroundColor: a1Color}}>
                 <p>Selected Color: {a1Color}</p>
             </div>

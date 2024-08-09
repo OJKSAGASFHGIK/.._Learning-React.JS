@@ -1,7 +1,7 @@
 // import s from './css.module.css';
 import React, {useState} from 'react';
 
-function Counter({title="Counter // useState() hook"}){
+function Counter({title="Counter // useState() hook", id}){
     const [name, setName] = useState("Guest");
     const [age, setAge] = useState(0);
     const [isEmployed, setEmployment] = useState(false);
@@ -25,7 +25,7 @@ function Counter({title="Counter // useState() hook"}){
 
     return (
         <>
-            <div className="line">{title}</div>
+            <h1 className="line" id={id}>{title}</h1>
             <div className="flex-space-around" style={{fontSize: '3vh'}}>
                 <div>
                 <p>Name: {name}</p>

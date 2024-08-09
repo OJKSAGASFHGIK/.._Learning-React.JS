@@ -3,7 +3,7 @@
 function Snnipet({title="OJKSAGASFHGIK"}){    
     return (
         <>
-            <div className="line">{title}</div>
+            <h1 className="line">{title}</h1>
         </>
     )
 }

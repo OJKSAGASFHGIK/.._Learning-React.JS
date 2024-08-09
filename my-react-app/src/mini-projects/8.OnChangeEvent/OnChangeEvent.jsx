@@ -1,7 +1,7 @@
 // import s from './css.module.css';
 import React, {useState} from "react";
 
-function OnChangeEvent({title="Register purchase // onChange event handler"}){    
+function OnChangeEvent({title="Register purchase // onChange event handler", id}){    
     const [name, setName] = useState("");
     function handleName(event){
         setName(event.target.value);
@@ -29,7 +29,7 @@ function OnChangeEvent({title="Register purchase // onChange event handler"}){
     
     return (
         <>
-            <div className="line">{title}</div>
+            <h1 className="line" id={id}>{title}</h1>
             <div className="flex-space-around">
                 <div>
                     <input value={name} onChange={handleName} />

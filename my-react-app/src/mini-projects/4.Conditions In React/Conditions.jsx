@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import s from './css.module.css';
 
-function Conditions({name = "Guest"}){
+function Conditions({name = "Guest", id}){
     const [message, setMessage] = useState(null);
 
     const welcomeMessage =
@@ -20,7 +20,7 @@ function Conditions({name = "Guest"}){
 
     return(
         <>
-        <div className="line">Conditions:</div>
+        <h1 className="line" id={id}>Conditions</h1>
         <div className={s.fontSize}>
             <div className="flex-space-around">
                 <button onClick={func1} className={s.greenBall}>Hello!</button>

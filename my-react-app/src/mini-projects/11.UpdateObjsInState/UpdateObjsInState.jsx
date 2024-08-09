@@ -1,7 +1,7 @@
 // import s from './css.module.css';
 import React, {useState} from "react";
 
-function UpdateObjsInState({title="Update objects in state"}){    
+function UpdateObjsInState({title="Update objects in state", id}){    
     const [a1Car, a1SetCar] = useState({
         year: 2024,
         make: "Ford",
@@ -21,7 +21,7 @@ function UpdateObjsInState({title="Update objects in state"}){
 
     return (
         <>
-            <div className="line">{title}</div>
+            <h1 className="line" id={id}>{title}</h1>
             <p>Your favorite car is: {a1Car.year} {a1Car.make} {a1Car.model}</p>
             <div>
                 <input type="number" value={a1Car.year} onChange={func1YearChange} /><br />

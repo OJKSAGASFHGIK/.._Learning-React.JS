@@ -1,7 +1,7 @@
 import './css.css';
 import PropTypes from 'prop-types'
 
-function Student({ name = "Unknown", age = 0, isStudent = false }){
+function Student({ name = "Unknown", age = 0, isStudent = false, id}){
     return(
         <div className="users">
             <p>Name: {name}</p>

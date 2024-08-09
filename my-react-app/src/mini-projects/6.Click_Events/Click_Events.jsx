@@ -1,6 +1,6 @@
 import s from './css.module.css';
 
-function Click_Events(){
+function Click_Events({id}){
     let some = 0;
     const clickFunction = (a1) => {
         if(some < 3){
@@ -11,11 +11,11 @@ function Click_Events(){
     
     return(
         <>
-        <div className="line">Click events</div>
-        <div className={s.center}>
-            <button onClick={clickFunction} className={s.button}>Click me</button>
-        </div>
-        <p>(You can use other types. Example: onDoubleClick)</p>
+            <h1 className="line" id={id}>Click events</h1>
+            <div className={s.center}>
+                <button onClick={clickFunction} className={s.button}>Click me</button>
+            </div>
+            <p>(You can use other types. Example: onDoubleClick)</p>
         </>
     );
 }

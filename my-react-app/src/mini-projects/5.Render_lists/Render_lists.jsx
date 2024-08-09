@@ -1,7 +1,7 @@
 import s from './css.module.css';
 import { getFruits, getVegetables } from './data.js';
 
-function Render_Lists(){
+function Render_Lists({id}){
     const fruits = getFruits();
     const vegetables = getVegetables();
     /* If you want in a future organize arrays in order: */
@@ -30,7 +30,7 @@ function Render_Lists(){
 
     return(
         <>
-        <div className="line">Lists</div>
+        <h1 className="line" id={id}>Lists</h1>
         <p>(Have some codes for list organization in this file)</p>
         <div className={s.bList}>
             {fruits.length > 0 ?

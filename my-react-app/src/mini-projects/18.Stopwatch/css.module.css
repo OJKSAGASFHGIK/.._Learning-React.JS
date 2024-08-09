@@ -1,0 +1,6 @@
+.div, .div button {
+    font-size: 5vh;
+}
+.div { 
+    border-bottom: solid 3px black;
+    display: flex; justify-content: space-around; }

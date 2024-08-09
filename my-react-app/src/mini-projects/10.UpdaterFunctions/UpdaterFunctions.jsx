@@ -1,7 +1,7 @@
 // import s from './css.module.css';
 import React, {useState} from "react";
 
-function UpdaterFunctions({title="Updater Functions"}){    
+function UpdaterFunctions({title="Updater Functions", id}){    
     const [a1Count, a1SetCount] = useState(0);
 
     function func1Increment(){
@@ -21,7 +21,7 @@ function UpdaterFunctions({title="Updater Functions"}){
 
     return (
         <>
-            <div className="line">{title}</div>
+            <h1 className="line" id={id}>{title}</h1>
             <div>
                 <p>Counter = {a1Count}</p>
                 <div>

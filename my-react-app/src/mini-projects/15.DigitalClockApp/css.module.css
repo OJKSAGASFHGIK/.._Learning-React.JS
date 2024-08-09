@@ -1,0 +1,21 @@
+.div {
+    margin: 0;
+
+    background-image: url(./wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+    min-height: 33vh;
+    display: flex;
+    justify-content: center; align-items: center;
+}
+
+.div div {
+    font-size: 6vh;
+    color: darkmagenta;
+    backdrop-filter: blur(10px);
+    
+}
