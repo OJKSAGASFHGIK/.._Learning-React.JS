@@ -1,4 +1,0 @@
-./react-library/dist/index.html
-./react-library/dist/netlify.toml
-
-./react-library/dist/public/index.html
